@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caloriecreaturecollectorapp.BonusFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Bonus"
+        android:textSize="36dp"
+        android:translationX="110dp"
+        android:translationY="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Distance Bonus"
+        android:textSize="36dp"
+        android:translationX="40dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use an Item"
+        android:textSize="36dp"
+        android:translationX="110dp"
+        android:translationY="375dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:progress="50"
+        android:progressTint="#673AB7"
+        android:translationX="25dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect"
+        android:translationX="150dp"
+        android:translationY="300dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:translationY="425dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPIN WHEEL"
+        android:translationX="135dp"
+        android:translationY="100dp" />
+</FrameLayout>

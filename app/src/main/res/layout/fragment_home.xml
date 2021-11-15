@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caloriecreaturecollectorapp.HomeFragment">
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToMenu"
+        android:text="Menu"
+        android:translationX="300dp"
+        android:translationY="25dp" />
+
+    <Button
+        android:id="@+id/bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToBonus"
+        android:text="Bonus"
+        android:translationX="300dp"
+        android:translationY="75dp" />
+
+    <Button
+        android:id="@+id/ability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ability"
+        android:translationX="250dp"
+        android:translationY="525dp" />
+
+    <Button
+        android:id="@+id/effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effect"
+        android:translationX="250dp"
+        android:translationY="575dp" />
+
+    <TextView
+        android:id="@+id/buddyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUDDYNAME"
+        android:translationX="85dp"
+        android:translationY="600dp" />
+
+    <ImageButton
+        android:id="@+id/buddy"
+        android:layout_width="102dp"
+        android:layout_height="79dp"
+        android:src="@drawable/ic_creatures"
+        android:translationX="75dp"
+        android:translationY="525dp" />
+
+    <ImageButton
+        android:id="@+id/egg"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_creatures"
+        android:translationX="75dp"
+        android:translationY="150dp" />
+
+    <ProgressBar
+        android:id="@+id/eggBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="346dp"
+        android:layout_height="62dp"
+        android:progress="75"
+        android:progressTint="#673AB7"
+        android:translationX="35dp"
+        android:translationY="425dp" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME, LVL N"
+        android:textSize="24dp"
+        android:translationX="20dp"
+        android:translationY="30dp" />
+
+    <ProgressBar
+        android:id="@+id/levelBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="214dp"
+        android:layout_height="27dp"
+        android:progress="25"
+        android:progressTint="#673AB7"
+        android:translationX="20dp"
+        android:translationY="60dp" />
+</FrameLayout>
